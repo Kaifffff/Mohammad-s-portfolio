@@ -1,26 +1,18 @@
 import {
-  FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
   FaInstagram,
-  FaDatabase
+  FaDatabase,
+  FaServer
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -35,7 +27,7 @@ export const HERO = {
   name: "Mohammad Kaif",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate Full Stack Web Developer with a talent for crafting dynamic, scalable, and seamless web applications. With expertise spanning frontend aesthetics and backend architecture, I bring ideas to life by delivering innovative and user-centric digital solutions. Whether it's designing intuitive interfaces or building robust server-side systems, I thrive on transforming challenges into impactful web experiences.",
 };
 
 export const PROJECTS = [
@@ -89,6 +81,24 @@ export const SKILLS = [
     name: "MySQL",
     experience: "2+ years",
   },
+  {
+    icon: (
+      <div className="text-4xl text-gray-500 lg:text-5xl font-bold">
+        Ex
+      </div>
+    ),
+    name: "Express.js",
+    experience: "2+ years",
+  },
+  {
+    icon: (
+      <div className="text-4xl text-blue-500 lg:text-5xl font-bold">
+        API
+      </div>
+    ),
+    name: "REST API",
+    experience: "2+ years",
+  },
 ];
 
 export const EXPERIENCES = [
@@ -113,7 +123,7 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/kaifffx3?igsh=bzN4bXZqNDZxaXps&utm_source=qr",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
