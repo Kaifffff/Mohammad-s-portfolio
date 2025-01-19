@@ -5,7 +5,7 @@ import {
   FaDatabase,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/portfolio.png";
+import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
