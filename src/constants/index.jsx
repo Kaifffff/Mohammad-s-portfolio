@@ -7,6 +7,9 @@ import {
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
+import portfolio from '../assets/portfolio.png'
+import restaura from '../assets/restaura.png'
+
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -35,7 +38,7 @@ export const PROJECTS = [
     name: "Personal Portfolio",
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
-    image: projectImage1,
+    image: portfolio,
     githubLink: "https://github.com/Kaifffff/personal-portfolio",
   },
   {
@@ -45,6 +48,14 @@ export const PROJECTS = [
       "Developed a secure authentication application using React, Node.js, and MongoDB, integrating Google OAuth for seamless login and registration. Focused on creating a user-friendly UI, optimizing backend performance, and ensuring robust data security.",
     image: projectImage2,
     githubLink: "https://github.com/Kaifffff/mern-auth",
+  },
+  {
+    id: 3,
+    name: "restaurant-website",
+    description:
+      "Designed and developed a responsive restaurant website using React and Tailwind CSS. Featured sections like Hero, Dishes, About, and Contact with engaging layouts. Integrated smooth scrolling, animations with Framer Motion, and a mobile-friendly navigation bar for enhanced user experience.",
+    image: restaura,
+    githubLink: "https://github.com/Kaifffff/restaura",
   },
 ];
 
