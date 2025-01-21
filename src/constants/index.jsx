@@ -5,8 +5,7 @@ import {
   FaDatabase,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
+import weatherApp from '../assets/weather-app.png'
 import portfolio from '../assets/portfolio.png'
 import restaura from '../assets/restaura.png'
 
@@ -43,12 +42,12 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "mern-auth",
+    name: "weather-app",
     description:
-      "Developed a secure authentication application using React, Node.js, and MongoDB, integrating Google OAuth for seamless login and registration. Focused on creating a user-friendly UI, optimizing backend performance, and ensuring robust data security.",
-    image: projectImage2,
-    githubLink: "https://github.com/Kaifffff/mern-auth",
-  },
+      "Built a dynamic weather application using React and OpenWeatherMap API, providing real-time weather updates and forecasts. Designed a responsive and intuitive UI for enhanced user experience, with location-based weather data and optimized API integration for fast performance.",
+    image: weatherApp,
+    githubLink: "https://github.com/Kaifffff/weather-app",
+},
   {
     id: 3,
     name: "restaurant-website",
