@@ -66,7 +66,7 @@ export const PROJECTS = [
     description:
       "Built a complete Authentication system using the MERN stack (MongoDB, Express, React, Node.js). Features include Email Verification and Password Reset with a secure 6-digit OTP sent directly to the user's email. Developed the backend server with JWT-based authentication to manage requests securely. Designed the frontend with React and Tailwind CSS, implementing responsive Login, Registration, and Password Reset forms with OTP input fields. Integrated APIs to connect the frontend and backend for a fully functional MERN Authentication system.",
     image: mernauth,
-    githubLink: "https://github.com/Kaifffff/mear-auth",
+    githubLink: "https://github.com/Kaifffff/mern-auth",
     livePreview:"https://mern-auth-kappa.vercel.app/",
   }
 ];
