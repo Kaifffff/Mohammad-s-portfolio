@@ -8,6 +8,7 @@ import {
 import weatherApp from '../assets/weather-app.png'
 import portfolio from '../assets/portfolio.png'
 import restaura from '../assets/restaura.png'
+import mernauth from  '../assets/mern-auth.png'
 
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -39,6 +40,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: portfolio,
     githubLink: "https://github.com/Kaifffff/personal-portfolio",
+    livePreview:"https://mohammad-s-portfolio.vercel.app/",
   },
   {
     id: 2,
@@ -47,6 +49,7 @@ export const PROJECTS = [
       "Built a dynamic weather application using React and OpenWeatherMap API, providing real-time weather updates and forecasts. Designed a responsive and intuitive UI for enhanced user experience, with location-based weather data and optimized API integration for fast performance.",
     image: weatherApp,
     githubLink: "https://github.com/Kaifffff/weather-app",
+    livePreview:"https://weather-app-md.vercel.app/",
 },
   {
     id: 3,
@@ -55,7 +58,17 @@ export const PROJECTS = [
       "Designed and developed a responsive restaurant website using React and Tailwind CSS. Featured sections like Hero, Dishes, About, and Contact with engaging layouts. Integrated smooth scrolling, animations with Framer Motion, and a mobile-friendly navigation bar for enhanced user experience.",
     image: restaura,
     githubLink: "https://github.com/Kaifffff/restaura",
+    livePreview:"https://restaura-virid.vercel.app/",
   },
+  {
+    id: 4,
+    name: "mear-auth",
+    description:
+      "Built a complete Authentication system using the MERN stack (MongoDB, Express, React, Node.js). Features include Email Verification and Password Reset with a secure 6-digit OTP sent directly to the user's email. Developed the backend server with JWT-based authentication to manage requests securely. Designed the frontend with React and Tailwind CSS, implementing responsive Login, Registration, and Password Reset forms with OTP input fields. Integrated APIs to connect the frontend and backend for a fully functional MERN Authentication system.",
+    image: mernauth,
+    githubLink: "https://github.com/Kaifffff/mear-auth",
+    livePreview:"https://mern-auth-kappa.vercel.app/",
+  }
 ];
 
 export const BIO = [
