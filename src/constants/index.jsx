@@ -131,6 +131,13 @@ export const EXPERIENCES = [
     description:
       "Developed utility programs such as a temperature converter, palindrome checker, student grade calculator, random password generator, Tic-Tac-Toe game, password strength checker, and file encryption/decryption tool. Leveraged Java to enhance problem-solving and programming skills, focusing on creating effective and functional applications.",
 },
+{
+    title: "Sofware Engineer Intern",
+    company: "Cravita Technologies India Private Limited",
+    duration: "March 2025 - Present",
+    description:
+      "Successfully completed training in HTML, CSS, JavaScript, SQL, and C. Collaborated with a teammate to develop a portfolio website and a responsive hotel booking website as project deliverables. Gained hands-on experience in web development, working on both front-end and basic back-end integration.",
+},
 ];
 
 export const EDUCATION = [
